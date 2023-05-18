@@ -1,15 +1,10 @@
 
 import './App.css';
 import AskForWeather from "./AskForWeather";
-import React, {useEffect} from "react";
+import React from "react";
 
 function App() {
-useEffect( ()=>{
-    test()
-} )
-    const test = () => {
-        console.log('hello');
-    };
+
 
     return (
         <React.Fragment>
