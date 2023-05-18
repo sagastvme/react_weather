@@ -25,7 +25,7 @@ const AskForWeather = () => {
              event.target[0].value=''
          } catch {
              event.target[0].value=''
-             setMessage('La ciudad que ha introducido no existe')
+             setMessage('The city you entered does not exist')
              setDialog(true);
          }
      }

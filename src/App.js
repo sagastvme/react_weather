@@ -1,7 +1,7 @@
 
 import './App.css';
 import AskForWeather from "./AskForWeather";
-import {useEffect} from "react";
+import React, {useEffect} from "react";
 
 function App() {
 useEffect( ()=>{
@@ -12,10 +12,10 @@ useEffect( ()=>{
     };
 
     return (
-        <div>
+        <React.Fragment>
             <h1>Weather app</h1>
             <AskForWeather />
-        </div>
+        </React.Fragment>
     );
 }
 
